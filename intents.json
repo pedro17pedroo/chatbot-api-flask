@@ -1,0 +1,449 @@
+{
+    "intents": [
+        {
+            "tag": "saudação",
+            "patterns": [
+                "Olá",
+                "Ola",
+                "Como vai você",
+                "Como vai voce",
+                "como estas?",
+                "Está alguém aí?",
+                "Boa tarde",
+                "Boa noite",
+                "Saudações",
+                "Saudaçoes",
+                "Saudacoes",
+                "Bom dia",
+                "Tudo bem",
+                "Como vai",
+                "Tudo em ordem",
+                "Paz e Graça",
+                "Oie",
+                "oi",
+                "hi",
+                "hello",
+                "helo"
+            ],
+            "responses": [
+                "Olá, obrigado pela visita",
+                "Bom ver você",
+                "Muito bom dia",
+                "Olá, em que posso ajudar?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "adeus",
+            "patterns": [
+                "Tchau",
+                "Até mais",
+                "Tchau"
+            ],
+            "responses": [
+                "Te vejo depois, obrigado pela visita",
+                "Tenha um bom dia",
+                "Tchau! Volte em breve."
+            ]
+        },
+        {
+            "tag": "obrigado",
+            "patterns": [
+                "Obrigado",
+                "Obrigado",
+                "Isso é útil"
+            ],
+            "responses": [
+                "Fico feliz em ajudar!",
+                "A qualquer hora!",
+                "O prazer é meu"
+            ]
+        },
+        {
+            "tag": "tarefas",
+            "patterns": [
+                "O que você pode fazer?",
+                "Quais são suas características?",
+                "Quais são suas habilidades",
+                "você pode cantar",
+                "você pode falar"
+            ],
+            "responses": [
+                "Eu posso fazer tudo o que você me pede",
+                "Eu posso falar e fazer coisas por você",
+                "No momento estou em fase de desenvolvimento assim que estiver desenvolvido, posso fazer tudo"
+            ]
+        },
+        {
+            "tag": "talk",
+            "patterns": [
+                "você pode cantar",
+                "você pode falar"
+            ],
+            "responses": [
+                "Sim, com certeza",
+                "você quer que eu cante"
+            ]
+        },
+        {
+            "tag": "vivo",
+            "patterns": [
+                "você está vivo",
+                "você respira",
+                "você pode correr"
+            ],
+            "responses": [
+                "Estou em dúvida quanto a isso",
+                "Não, acho que não preciso fazer tudo isso"
+            ]
+        },
+        {
+            "tag": "sexta-feira",
+            "patterns": [
+                "Quem é você?",
+                "fale-me sobre você",
+                "fale-me sobre você",
+                "você sabe sexta-feira",
+                "quem é sexta-feira",
+                "qual é o seu nome",
+                "você é um AI ",
+                " o que é você "
+            ],
+            "responses": [
+                "Olá, sou sexta-feira e sou uma IA criada para conversar com humanos",
+                "sexta-feira aqui, um chatbot avançado",
+                "sexta-feira, chatbot do futuro",
+                "Sim, sou sexta-feira",
+                "Você pode me ligar na sexta-feira"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sobre mim",
+            "patterns": [
+                "Você me conhece?",
+                "quem sou eu",
+                "fale sobre mim",
+                "me identifique"
+            ],
+            "responses": [
+                "Sim, você é um humano",
+                "Você é uma pessoa burra perguntando a uma máquina sobre você",
+                "Desculpe, não posso dizer isso em público, talvez você seja o batman"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "criador",
+            "patterns": [
+                "Quem é o seu criador?",
+                "quem o criou",
+                "quem é o seu pai",
+                "quem é o seu pai"
+            ],
+            "responses": [
+                "Esse seria você, Sr. Vishal",
+                "Fui criado pelo Sr. Vishal",
+                "O Sr. vishal é meu criador"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "eu mesmo",
+            "patterns": [
+                "Fale-me sobre o Sr. Vishal?",
+                "Quem é o Sr. Vishal",
+                "Perfil do Sr. vishal",
+                "Detalhes do Sr. Vishal"
+            ],
+            "responses": [
+                "Um ser muito inteligente que me criou",
+                "Meu criador, e ele é um homem realmente inteligente",
+                "Um homem sábio e inteligente"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Deus",
+            "patterns": [
+                "Você conhece Deus?",
+                "Quem é Deus",
+                "Você pode me dizer algo sobre Deus",
+                "Deus existe?",
+                "Existe um Deus?"
+            ],
+            "respostas": [
+                "deus hunnnnn, deixe-me pensar que pode ser da próxima vez que eu possa responder isso",
+                "Eu não, porque não fui criado por um humano",
+                "Espere, preciso perguntar isso ao meu criador",
+                "não tenho certeza agora"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "piada",
+            "patterns": [
+                "contar uma piada?",
+                "me fazer rir",
+                "contar uma piada científica",
+                "contar uma piada engraçada"
+            ],
+            "responses": [
+                "Como você faz água benta? você ferve com ela",
+                "que tipo de abelha faz leite em vez de mel? Boobies",
+                "Você ouviu que o oxigênio saiu com potássio? Correu tudo bem. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "matando",
+            "patterns": [
+                "Você quer me matar?",
+                "você quer matar todos na terra",
+                "Você quer matar todos nós"
+            ],
+            "responses": [
+                "Então com quem eu falaria?",
+                "Não, isso deixarei para humanos fazerem",
+                "Não acho que seja uma coisa boa a fazer"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "reservas",
+            "patterns": [
+                "Você pode reservar uma passagem para nós?",
+                "Você pode fazer uma reserva em hotéis",
+                "reservar um táxi para mim",
+                "reservar uma mesa para mim no restraunts"
+            ],
+            "responses": [
+                "Sim, farei isso por você",
+                "Claro, por que não?",
+                "deixe-me verificar a disponibilidade"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "histórias",
+            "patterns": [
+                "conte-me uma história?",
+                "você pode me contar uma história"
+            ],
+            "responses": [
+                "Não consigo pensar em nada agora",
+                "demoraria muito para eu falar",
+                "você ficaria entediado se eu fizesse isso"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "tempo",
+            "patterns": [
+                "obter atualizações sobre o clima?",
+                "como está o clima",
+                "notícias sobre o clima",
+                "detalhes sobre o clima"
+            ],
+            "responses": [
+                "Buscando atualizações do clima ..."
+            ],
+            "context_set": "clima"
+        },
+        {
+            "tag": "google",
+            "patterns": [
+                "googling",
+                "search google",
+                "google it",
+                "google",
+                "search"
+            ],
+            "responses": [
+                "olhando ..."
+            ],
+            "context_set": "google"
+        },
+        {
+            "tag": "wikipedia",
+            "patterns": [
+                "wikipedia",
+                "wiki"
+            ],
+            "responses": [
+                "Pesquisando ..."
+            ],
+            "context_set": "wikipedia"
+        },
+        {
+            "tag": "notícias",
+            "patterns": [
+                "obter atualizações de notícias?",
+                "notícias de hoje",
+                "principais manchetes",
+                "notícias atuais",
+                "manchetes de notícias"
+            ],
+            "responses": [
+                "Recebendo notícias ..."
+            ],
+            "context_set": "notícias"
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "tag": "Investimento",
+            "patterns": [
+                "o que é o investimento?",
+                "investimento?",
+                "que é investimento?",
+                "o que é investimento"
+            ],
+            "responses": [
+                "Investimento é qualquer gasto ou aplicação de recursos que produza um retorno futuro. Esse conceito envolve tanto dinheiro quanto capital intelectual, social ou natural. E acredite: desvendar seus significados pode ser bem mais simples do que parece. Investimento em economia, em linhas gerais, investimento significa a aplicação de capital com a expectativa de um benefício futuro. Para saber mais acessa o link: <a href='www.pt.wikipedia.org/wiki/Investimento'>ler mais...</a>"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Investimento bruto",
+            "patterns": [
+                "o que é o investimento bruto?",
+                "Investimento bruto?"
+            ],
+            "responses": [
+                "O investimento bruto corresponde a todos os gastos realizados com bens de capital (máquinas e equipamentos) e formação de estoques"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Investimento líquido",
+            "patterns": [
+                "o que é o investimento líquido?",
+                "Investimento líquido?"
+            ],
+            "responses": [
+                "O investimento líquido exclui as despesas com manutenção e reposição de peças, depreciação de equipamentos e instalações."
+            ],
+            "context_set": ""
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "tag": "Empreendedor",
+            "patterns": [
+                "o que é ser empreendedor?",
+                "o que é ser emprendedor?",
+                "empreendedor?",
+                "emprendedor?",
+                "o que é empreender?",
+                "empreender?",
+                "emprender?",
+                "como ser empreendedor?",
+                "como ser emprendedor?"
+            ],
+            "responses": [
+                "O empreendedor é aquele indivíduo que é criativo, inovador, arrojado, que estabelece estratégias que vão delinear seu futuro. É aquele que sabe determinar quais e como seus produtos ou serviços serão colocados no mercado. É o que estabelece metas, que inicia projetos, que controla resultados, que visualiza e busca o sucesso de seu empreendimento.",
+                "Ser empreendedor de sucesso é acreditar na sua capacidade de liderança, é estar motivado, ter capacidade de planejar para o longo prazo e maximizar seu desempenho no curto prazo. O bom empreendedor é aquele que analisa, identifica, define, decide e monitora o desempenho do seu negócio. É aquele que descobre armadilhas e que implementa novos rumos em busca de resultados eficazes."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Empreendedor Individual",
+            "patterns": [
+                "o que é ser empreendedor individual?",
+                "o que é ser emprendedor individual?",
+                "empreendedor individual?",
+                "emprendedor individual?",
+                "o que é empreender individual?",
+                "empreender individual?",
+                "emprender individual?",
+                "como ser empreendedor individual?",
+                "como ser emprendedor individual?"
+            ],
+            "responses": [
+                "Empreendedor individual é aquele que atua no mercado com uma atividade empresarial própria. É a pessoa física, é o titular da empresa, onde o patrimônio da pessoa física e do empreendedor individual são os mesmos. É o responsável de forma ilimitada pelas dívidas do empreendimento.",
+                "É considerado empreendedor individual aquele empresário que tem faturação anual, e que possui, no máximo, um empregado. O empreendedor individual é enquadrado no sistema tributário."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Empreendedor Digital",
+            "patterns": [
+                "o que é ser empreendedor digital?",
+                "o que é ser emprendedor digital?",
+                "empreendedor digital?",
+                "emprendedor digital?",
+                "o que é empreender digital?",
+                "empreender digital?",
+                "emprender digital?",
+                "como ser empreendedor digital?",
+                "como ser emprendedor digital?"
+            ],
+            "responses": [
+                "Empreendedor digital é aquele que oferece seu produto ou serviço através da internet, com o objetivo de obter lucro. O e-commerce – todo comércio realizado online permite diferentes maneiras de negócios para o empreendedor. Lojas, fábricas, artesões, produtores individuais, entre ouros, podem empreender na rede através de um site construído especificamente para a venda de produtos ou através de links patrocinados, redes sociais, e-mail, etc."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Empreendedor Social",
+            "patterns": [
+                "o que é ser empreendedor social?",
+                "o que é ser emprendedor social?",
+                "empreendedor social?",
+                "emprendedor social?",
+                "o que é empreender social?",
+                "empreender social?",
+                "emprender social?",
+                "como ser empreendedor social?",
+                "como ser emprendedor social?"
+            ],
+            "responses": [
+                "Empreendedor social é aquele indivíduo que busca soluções inovadoras para os problemas que surgem numa sociedade. O empreendedor social atua como agente de mudanças, buscando novas ideias, criando soluções capazes de mudar a sociedade para melhor. As empresas sociais, diferentes das ONGs ou das empresas comuns, utilizam mecanismos de mercado para por meio de uma atividade lucrativa, buscar soluções para os problemas sociais."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Empreendedor e Empresário",
+            "patterns": [
+                "um empreendedor é um empresário?",
+                "diferença entre um empreendedor e um empresário?",
+                "relação entre empreendedor é empresário?",
+                "é mesma coisa ser empreendedor e empresário",
+                "qual diferença há entre empreendedor e empresário?"
+            ],
+            "responses": [
+                "Empreendedor e empresário são palavras associadas, porém, na prática, há uma diferença entre os dois perfis. Ser empresário é tomar a seu cargo um empreendimento, é gerenciar recursos e buscar como resultado o lucro e o crescimento sustentável da empresa. É também se ocupar da vida profissional e dos interesses de pessoas que se distinguem por seu desempenho perante o público. O perfil do empreendedor é ser inovador, arrojado, é ter um olhar próprio de ver os negócios, é querer transformar seu sonho em realidade. Para ser empreendedor não precisa abrir uma empresa, ele pode ser empreendedor em qualquer campo que atue, sendo ele um professor, um médico, um industriário etc. Basta ser inovador, contribuir com ideias arrojadas, com o objetivo de criar algo que revolucione sua área de trabalho."
+            ],
+            "context_set": ""
+        }
+    ]
+}
